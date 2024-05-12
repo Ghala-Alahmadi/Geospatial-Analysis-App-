@@ -1,0 +1,12 @@
+pandas
+numpy
+joblib
+pyproj
+scikit-learn
+geopandas
+shapely
+scipy
+contextily
+lightgbm
+streamlit
+altair==4.2.2
