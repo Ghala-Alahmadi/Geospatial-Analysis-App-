@@ -1,7 +1,6 @@
 Pandas
 numpy
 pyproj
-pykrige.ok
 scikit-learn
 geopanda
 shapely.geometry
@@ -9,7 +8,7 @@ scipy.optimize
 contextily
 lightgbm
 streamlit
-joblib
 geopandas
+joblib
 altair==4.2.2
 datetime
