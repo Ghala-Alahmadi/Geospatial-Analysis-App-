@@ -2,7 +2,7 @@ pandas
 numpy
 joblib
 pyproj
-scikit-learn==0.24.2
+scikit-learn
 geopandas
 shapely
 scipy
