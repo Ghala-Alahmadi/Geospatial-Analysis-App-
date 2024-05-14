@@ -2,7 +2,7 @@
 import streamlit as st
 import joblib
 
-import sklearn
+import sklearn import *
 import numpy as np
 import pandas as pd
 import pyproj
@@ -18,7 +18,6 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import r2_score
 import altair as alt
 from datetime import datetime, timedelta
-from pycaret.regression import *
 
 # ----------------------
 def geometric_median(points: list):
