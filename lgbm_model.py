@@ -107,9 +107,8 @@ def main():
         st.subheader("Temperature Prediction with Categorization")
 
         import pickle
-
         # Load the model from a pickle file
-        with open('lgbm_model.pkl', 'rb') as file:
+    with open('lgbm_model.pkl', 'rb') as file:
         model = pickle.load(file)
 
 
