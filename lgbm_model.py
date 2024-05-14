@@ -2,7 +2,9 @@
 import streamlit as st
 import joblib
 
-import sklearn import *
+from sklearn.metrics import make_scorer, accuracy_score
+custom_scorer = make_scorer(accuracy_score)
+
 import numpy as np
 import pandas as pd
 import pyproj
