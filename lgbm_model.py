@@ -2,7 +2,7 @@
 import streamlit as st
 import joblib
 
-import sklearn==
+import sklearn
 import numpy as np
 import pandas as pd
 import pyproj
