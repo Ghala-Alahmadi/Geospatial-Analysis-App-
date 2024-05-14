@@ -18,7 +18,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import r2_score
 import altair as alt
 from datetime import datetime, timedelta
-from sklearn.metrics._scorer import _SCORERS
+from sklearn.metrics._scorer import _PredictScorer
 
 # ----------------------
 def geometric_median(points: list):
