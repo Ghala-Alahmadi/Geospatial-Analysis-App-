@@ -129,6 +129,8 @@ def main():
             else:
                 return "Hot"
 
+
+        model = joblib.load('lgbm_model.pkl')
         # Prediction + categorization
         if st.button('Predict Temperature'):
           
