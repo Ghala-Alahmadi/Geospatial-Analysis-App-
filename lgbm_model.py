@@ -106,6 +106,12 @@ def main():
     elif menu == "Temperature Prediction":
         st.subheader("Temperature Prediction with Categorization")
 
+        import pickle
+
+        # Load the model from a pickle file
+        with open('lgbm_model.pkl', 'rb') as file:
+        model = pickle.load(file)
+
 
         st.write("Enter numeric values to predict the temperature:")
         
@@ -130,7 +136,6 @@ def main():
                 return "Hot"
 
 
-        model = joblib.load('lgbm_model.pkl')
         # Prediction + categorization
         if st.button('Predict Temperature'):
           
