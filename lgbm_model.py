@@ -2,9 +2,6 @@
 import streamlit as st
 import joblib
 
-from sklearn.metrics import make_scorer, accuracy_score
-custom_scorer = make_scorer(accuracy_score)
-
 import numpy as np
 import pandas as pd
 import pyproj
@@ -109,7 +106,9 @@ def main():
         st.subheader("Temperature Prediction with Categorization")
 
         #Load the LightGBM model, the reason that we choose LightGBM because after tuning, there is improvement in R-squared on the training set,and it's compatible with both small and large datasets.
+        import joblib
         model = joblib.load('lgbm_model.pkl')
+
 
         st.write("Enter numeric values to predict the temperature:")
         
